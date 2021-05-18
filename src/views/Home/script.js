@@ -21,7 +21,6 @@ export default {
         };
     },
     methods: {
-        /* istanbul ignore next */
         async getLastVisit () {
             try {
                 const docRef = await db.collection('Users').doc(auth.currentUser.uid);
