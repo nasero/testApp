@@ -13,7 +13,7 @@ admin.auth = {
 const localVue = createLocalVue();
 
 localVue.component('testApp-button', TestAppButton);
-localVue.component('testApp-intpu', TestAppInput);
+localVue.component('testApp-input', TestAppInput);
 
 describe('Home - Snapshot', () => {
     it('Snapshot', () => {
