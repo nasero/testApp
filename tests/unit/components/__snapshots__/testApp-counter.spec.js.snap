@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TestAppCounter - Snapshot Snapshot 1`] = `
+<div
+  class="testApp-counter"
+>
+  <p
+    class="testApp-counter__digit"
+  >
+    
+  </p>
+  <p
+    class="testApp-counter__label"
+  >
+    
+  </p>
+</div>
+`;

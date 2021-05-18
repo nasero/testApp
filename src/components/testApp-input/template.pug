@@ -1,0 +1,12 @@
+.testApp-input
+    label.hidden(:for="inputId") {{ label }}
+    input.testApp-input__input(
+        :id="inputId",
+        :type="type",
+        :placeholder="placeholder",
+        v-validate="validations",
+        :data-vv-as="inputAlias",
+        :name="name",
+        @input="emitValue"
+        )
+    p.testApp-input__error {{ errors && errors.first(name) }}

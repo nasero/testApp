@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home - Snapshot Snapshot 1`] = `
+<div
+  class="view home"
+>
+  <h2
+    class="home__title"
+  >
+    Welcome!
+  </h2>
+  <p
+    class="home__subtitle"
+  >
+    The last time you accessed was
+  </p>
+  <div
+    class="home__counters-group"
+  >
+    <testapp-counter-stub
+      class="home__counter"
+      label="days"
+      value="00"
+    />
+    <testapp-counter-stub
+      class="home__counter"
+      label="hours"
+      value="00"
+    />
+    <testapp-counter-stub
+      class="home__counter"
+      label="minutes"
+      value="00"
+    />
+    <testapp-counter-stub
+      class="home__counter"
+      label="seconds"
+      value="00"
+    />
+  </div>
+  <testapp-button-stub
+    class="testApp-button--light home__button"
+    text="LOGOUT"
+    type="button"
+  />
+</div>
+`;

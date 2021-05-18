@@ -1,0 +1,5 @@
+button.testApp-button(
+    :type="type",
+    @click="buttonClicked",
+    :class="{'testApp-button--max-width' : maxWidth, 'testApp-button--disable' : disableButton}"
+    ) {{ text }}

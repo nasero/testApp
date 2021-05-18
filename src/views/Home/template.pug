@@ -1,0 +1,9 @@
+.view.home
+    h2.home__title Welcome!
+    p.home__subtitle The last time you accessed was
+    .home__counters-group
+        testApp-counter.home__counter(:value="lastVisitCount.days", label="days")
+        testApp-counter.home__counter(:value="lastVisitCount.hours", label="hours")
+        testApp-counter.home__counter(:value="lastVisitCount.mins", label="minutes")
+        testApp-counter.home__counter(:value="lastVisitCount.secs", label="seconds")
+    testApp-button.testApp-button--light.home__button(text="LOGOUT", @testApp-button-clicked="logout")

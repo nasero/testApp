@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TestAppInput - Snapshot Snapshot 1`] = `
+<div
+  class="testApp-input"
+>
+  <label
+    class="hidden"
+  >
+    
+  </label>
+  <input
+    class="testApp-input__input"
+    type="text"
+  />
+  <p
+    class="testApp-input__error"
+  >
+    
+  </p>
+</div>
+`;

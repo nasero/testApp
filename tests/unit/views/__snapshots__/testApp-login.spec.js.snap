@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home - Snapshot Snapshot 1`] = `
+<div
+  class="login view"
+>
+  <img
+    class="login__icon"
+    src="../../assets/padlock.svg"
+  />
+  <form
+    class="login__form"
+    novalidate="novalidate"
+  >
+    <testapp-input-stub
+      id="login-email"
+      label="E-mail"
+      name="email"
+      placeholder="Email"
+      type="email"
+      validations="email|required"
+    />
+    <testapp-input-stub
+      id="login-pass"
+      label="Password"
+      name="password"
+      placeholder="password"
+      type="password"
+      validations="required"
+    />
+    <!---->
+    <testapp-button-stub
+      class="testApp-button--dark login__form-button"
+      disablebutton="true"
+      maxwidth="true"
+      text="Log In"
+      type="submit"
+    />
+  </form>
+</div>
+`;

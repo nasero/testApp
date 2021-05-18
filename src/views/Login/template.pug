@@ -1,0 +1,21 @@
+.login.view
+    img.login__icon(src="../../assets/padlock.svg")
+    form.login__form(novalidate, @submit.prevent="")
+        testApp-input(
+            placeholder="Email",
+            type="email",
+            validations="email|required",
+            name="email",
+            label="E-mail"
+            id="login-email",
+            @testApp-input-value="setValue($event, 'email')")
+        testApp-input(
+            placeholder="password",
+            type="password",
+            validations="required",
+            name="password",
+            label="Password"
+            id="login-pass",
+            @testApp-input-value="setValue($event, 'password')")
+        p.login__error(v-if="loginError") {{ loginError }}
+        testApp-button.testApp-button--dark.login__form-button(type="submit" text="Log In", max-width, @testApp-button-clicked="login" :disableButton="disableButton")
